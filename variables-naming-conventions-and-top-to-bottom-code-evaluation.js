@@ -24,9 +24,15 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let userName = "Alice";
+let itemsPurchased = 5;
+let amountPaid = 20;
+let wholeSentence = userName + " bought " + itemsPurchased + " items for $" + amountPaid + ".";
 
-console.log(d);
+console.log(wholeSentence);
+
+let friendName = "Matt";
+
+wholeSentence = userName + " also bought " + itemsPurchased + " for " + friendName +".";
+
+console.log(wholeSentence);
